@@ -2,53 +2,21 @@ import './style.css'
 
 
 document.querySelector('#app').innerHTML = `
-<header>
-  <nav>
-    <span>DarkMode</span>
-    <div>
-      <span>search</span>
-      San Francisco
+<header class="w-full h-3/4 bg-gray-400 flex flex-col relative" >
+  <nav></nav>
+  <div class=" w-full h-full">
+    <picture class="w-full h-full bg-red-100 flex flex-row">
+      <span class="w-full h-full bg-sanFrancisco bg-cover bg-center bg-no-repeat"></span>
+    </picture>
+    <div class="absolute top-0 p-6 w-full h-full flex flex-col gap-5 align-center">
+      <span class="">DarkMode</span>
+      <div class="">
+        <span>searchICo</span>
+        <input type="search" name="" id="" placeholder="San Francisco">
+      </div>
+      <button class="bg-white justify-self-start">Explore More</button>
     </div>
-    <button>Explore More</button>
-  </nav>
+  </div>
 </header>
-<main>
-  <section>
-    <h2>Our Recomendations</h2>
-    <article>
-      <picture></picture>
-      <h4>Norway</h4>
-      <p>Beautiful landscapes</p>
-    </article>
-  </section>
-  <section>
-    <h2>Trending Stays</h2>
-    <article>
-      <picture>
-        <h3>Chicago</h3>
-        <p></p>
-      </picture>
-    </article>
-  </section>
-  <section>
-    <h3>FAQs</h3>
-    <article>
-      <h4>Payment Methods</h4>
-      <p>We accept VISA, MasterCard, American Express, Paypal and Binance, We accept VISA, 
-        MasterCard, American Express, Paypal and Binance.</p>
-    </article>
-  </section>
-</main>
-<footer>
-  <h3>About Us</h3>
-  <p>Jobs</p>
-  <p>Privacy policy</p>
-  <p>Terms and Conditions</p>
-  <p>Platzi Travel, inc</p>
-  <p>Follow Us</p>
-  <picture>
-    <span>Twitter</span>
-    <span>Instagram</span>
-  </picture>
-</footer>
+
 `
