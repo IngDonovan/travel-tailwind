@@ -21,6 +21,10 @@ export default {
       Montserrat: ["Monserrat", "sans-serif"],
     },
     extend: {
+      boxShadow: {
+        'custom': '0 2px 7px 0px rgba(0, 0, 0, 0.25)',
+
+      },
       backgroundImage: {
         'sanFrancisco': "url('../img/sanFrancisco.jpg')",
         'sanFranciscoDesktop': "url('../img/sanFranciscoDesktop.jpg')",
