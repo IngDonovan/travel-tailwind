@@ -23,10 +23,66 @@ document.querySelector('#app').innerHTML = `
   </div>
 </header>
 <main>
-  <section id="recomendations" class="py-7 px-5">
-    <h2 class="text-primary font-bold text-2xl pb-7">Our Recomendations</h2>
-    <aside class="flex overflow-x-scroll">
-      <article class="w-40 h-48 flex flex-col bg-secondary text-white rounded-lg shadow-custom">
+  <section id="recomendations" class="py-7">
+    <h2 class="text-primary font-bold text-2xl px-5 pb-7">Our Recomendations</h2>
+    <aside class="flex gap-5 overflow-x-scroll px-5 ">
+      <article class="w-40 h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom">
+        <picture class="w-full h-3/5 bg-norway bg-cover rounded-t-lg"></picture>
+        <div class="p-3">
+          <h4 class="text-sm font-bold pb-1" >Norway</h4>
+          <p class="text-xs ">Beautiful landscapes</p>
+        </div>
+      </article>
+      <article class="w-40 h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom">
+        <picture class="w-full h-3/5 bg-norway bg-cover rounded-t-lg"></picture>
+        <div class="p-3">
+          <h4 class="text-sm font-bold pb-1" >Norway</h4>
+          <p class="text-xs ">Beautiful landscapes</p>
+        </div>
+      </article>
+      <article class="w-40 h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom">
+        <picture class="w-full h-3/5 bg-norway bg-cover rounded-t-lg"></picture>
+        <div class="p-3">
+          <h4 class="text-sm font-bold pb-1" >Norway</h4>
+          <p class="text-xs ">Beautiful landscapes</p>
+        </div>
+      </article>
+      <article class="w-40 h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom">
+        <picture class="w-full h-3/5 bg-norway bg-cover rounded-t-lg"></picture>
+        <div class="p-3">
+          <h4 class="text-sm font-bold pb-1" >Norway</h4>
+          <p class="text-xs ">Beautiful landscapes</p>
+        </div>
+      </article>
+      <article class="w-40 h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom">
+        <picture class="w-full h-3/5 bg-norway bg-cover rounded-t-lg"></picture>
+        <div class="p-3">
+          <h4 class="text-sm font-bold pb-1" >Norway</h4>
+          <p class="text-xs ">Beautiful landscapes</p>
+        </div>
+      </article>
+      <article class="w-40 h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom">
+        <picture class="w-full h-3/5 bg-norway bg-cover rounded-t-lg"></picture>
+        <div class="p-3">
+          <h4 class="text-sm font-bold pb-1" >Norway</h4>
+          <p class="text-xs ">Beautiful landscapes</p>
+        </div>
+      </article>
+      <article class="w-40 h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom">
+        <picture class="w-full h-3/5 bg-norway bg-cover rounded-t-lg"></picture>
+        <div class="p-3">
+          <h4 class="text-sm font-bold pb-1" >Norway</h4>
+          <p class="text-xs ">Beautiful landscapes</p>
+        </div>
+      </article>
+      <article class="w-40 h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom">
+        <picture class="w-full h-3/5 bg-norway bg-cover rounded-t-lg"></picture>
+        <div class="p-3">
+          <h4 class="text-sm font-bold pb-1" >Norway</h4>
+          <p class="text-xs ">Beautiful landscapes</p>
+        </div>
+      </article>
+      <article class="w-40 h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom">
         <picture class="w-full h-3/5 bg-norway bg-cover rounded-t-lg"></picture>
         <div class="p-3">
           <h4 class="text-sm font-bold pb-1" >Norway</h4>
