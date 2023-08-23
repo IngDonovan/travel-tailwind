@@ -8,13 +8,13 @@ document.querySelector('#app').innerHTML = `
     <picture class="w-full h-full bg-red-100 flex flex-row">
       <span class="w-full h-full bg-sanFrancisco bg-cover bg-center bg-no-repeat"></span>
     </picture>
-    <div class="absolute top-0 p-6 w-full h-full flex flex-col gap-5 align-center">
-      <span class="">DarkMode</span>
-      <div class="">
+    <div class="absolute top-0 p-6 w-full h-full flex flex-col gap-5 align-center self-center">
+      <span class="self-end">DarkMode</span>
+      <div class="self-center">
         <span>searchICo</span>
         <input type="search" name="" id="" placeholder="San Francisco">
       </div>
-      <button class="bg-white justify-self-start">Explore More</button>
+      <button class="bg-white self-center mt-72 p-4 rounded-3xl text-primary font-Montserrat">Explore More</button>
     </div>
   </div>
 </header>
