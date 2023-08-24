@@ -17,7 +17,7 @@ function App() {
             <span className="self-end bg-white px-4 py-2 rounded-3xl">
               <img src={moonLogo} alt="" className="w-5 h-5"/>
             </span>
-            <div className="flex align-center justify-center bg-white rounded-3xl shadow-custom">
+            <div className="flex align-center justify-center bg-white rounded-3xl shadow-custom transition duration-700 ease-in-out focus:ring-2 focus:w-11/12 hover:scale-105">
               <span className="self-center">
                 <img src={searchLogo} alt="" className="w-6 h-6"/>
               </span>
@@ -28,72 +28,72 @@ function App() {
                 placeholder="San Francisco" 
                 className="text-center text-base py-4 px-0 rounded-3xl border-none outline-none bg-transparent focus:bg-transparent"/>
             </div>
-            <button className="bg-white self-center mt-72 py-4 px-10 rounded-3xl text-primary font-Montserrat text-base font-bold  shadow-custom">Explore More</button>
+            <button className="bg-white self-center mt-72 py-4 px-10 rounded-3xl text-primary font-Montserrat text-base font-bold shadow-custom transition duration-500 ease-in-out hover:bg-primary hover:text-white hover:font-bold hover:-translate-y-1 hover:scale-110">Explore More</button>
           </div>
         </div>
       </header>
       <main>
         <section id="recomendations" className="py-7">
-          <h2 className="text-primary font-bold text-2xl px-5 pb-7">Our Recomendations</h2>
-          <aside className="w-auto h-52 flex gap-5 overflow-auto px-5 ">
-            <article className="w-40 h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom">
-              <picture className="w-full h-3/5 bg-norway bg-cover rounded-t-lg"></picture>
+          <h2 className="text-primary font-bold text-2xl px-5">Our Recomendations</h2>
+          <aside className="w-auto h-54 flex gap-5 overflow-auto px-5 py-7">
+            <article className="h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom transition duration-500 ease-in-out hover:-translate-y-4 ">
+              <picture className="w-40 h-3/5 bg-norway bg-cover rounded-t-lg"></picture>
               <div className="p-3">
                 <h4 className="text-sm font-bold pb-1" >Norway</h4>
                 <p className="text-xs ">Beautiful landscapes</p>
               </div>
             </article>
-            <article className="w-40 h-48 min-w-max flex flex-col bg-white text-white rounded-lg shadow-custom">
-              <picture className="w-full h-3/5 bg-norway bg-cover rounded-t-lg"></picture>
+            <article className="h-48 min-w-max flex flex-col bg-white text-tertiary rounded-lg shadow-custom transition duration-500 ease-in-out hover:-translate-y-4 ">
+              <picture className="w-40 h-3/5 bg-norway bg-cover bg-no-repeat rounded-t-lg"></picture>
+              <div className="p-3">
+                <h4 className="text-sm font-bold pb-1" >New York</h4>
+                <p className="text-xs ">Concrete jungle</p>
+              </div>
+            </article>
+            <article className="h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom transition duration-500 ease-in-out hover:-translate-y-4 ">
+              <picture className="w-40 h-3/5 bg-norway bg-cover rounded-t-lg"></picture>
               <div className="p-3">
                 <h4 className="text-sm font-bold pb-1" >Norway</h4>
                 <p className="text-xs ">Beautiful landscapes</p>
               </div>
             </article>
-            <article className="w-40 h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom">
-              <picture className="w-full h-3/5 bg-norway bg-cover rounded-t-lg"></picture>
+            <article className="h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom transition duration-500 ease-in-out hover:-translate-y-4 ">
+              <picture className="w-40 h-3/5 bg-norway bg-cover rounded-t-lg"></picture>
               <div className="p-3">
                 <h4 className="text-sm font-bold pb-1" >Norway</h4>
                 <p className="text-xs ">Beautiful landscapes</p>
               </div>
             </article>
-            <article className="w-40 h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom">
-              <picture className="w-full h-3/5 bg-norway bg-cover rounded-t-lg"></picture>
+            <article className="h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom transition duration-500 ease-in-out hover:-translate-y-4 ">
+              <picture className="w-40 h-3/5 bg-norway bg-cover rounded-t-lg"></picture>
               <div className="p-3">
                 <h4 className="text-sm font-bold pb-1" >Norway</h4>
                 <p className="text-xs ">Beautiful landscapes</p>
               </div>
             </article>
-            <article className="w-40 h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom">
-              <picture className="w-full h-3/5 bg-norway bg-cover rounded-t-lg"></picture>
+            <article className="h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom transition duration-500 ease-in-out hover:-translate-y-4 ">
+              <picture className="w-40 h-3/5 bg-norway bg-cover rounded-t-lg"></picture>
               <div className="p-3">
                 <h4 className="text-sm font-bold pb-1" >Norway</h4>
                 <p className="text-xs ">Beautiful landscapes</p>
               </div>
             </article>
-            <article className="w-40 h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom">
-              <picture className="w-full h-3/5 bg-norway bg-cover rounded-t-lg"></picture>
+            <article className="h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom transition duration-500 ease-in-out hover:-translate-y-4 ">
+              <picture className="w-40 h-3/5 bg-norway bg-cover rounded-t-lg"></picture>
               <div className="p-3">
                 <h4 className="text-sm font-bold pb-1" >Norway</h4>
                 <p className="text-xs ">Beautiful landscapes</p>
               </div>
             </article>
-            <article className="w-40 h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom">
-              <picture className="w-full h-3/5 bg-norway bg-cover rounded-t-lg"></picture>
+            <article className="h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom transition duration-500 ease-in-out hover:-translate-y-4 ">
+              <picture className="w-40 h-3/5 bg-norway bg-cover rounded-t-lg"></picture>
               <div className="p-3">
                 <h4 className="text-sm font-bold pb-1" >Norway</h4>
                 <p className="text-xs ">Beautiful landscapes</p>
               </div>
             </article>
-            <article className="w-40 h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom">
-              <picture className="w-full h-3/5 bg-norway bg-cover rounded-t-lg"></picture>
-              <div className="p-3">
-                <h4 className="text-sm font-bold pb-1" >Norway</h4>
-                <p className="text-xs ">Beautiful landscapes</p>
-              </div>
-            </article>
-            <article className="w-40 h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom">
-              <picture className="w-full h-3/5 bg-norway bg-cover rounded-t-lg"></picture>
+            <article className="h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom transition duration-500 ease-in-out hover:-translate-y-4 ">
+              <picture className="w-40 h-3/5 bg-norway bg-cover rounded-t-lg"></picture>
               <div className="p-3">
                 <h4 className="text-sm font-bold pb-1" >Norway</h4>
                 <p className="text-xs ">Beautiful landscapes</p>
