@@ -26,7 +26,7 @@ function App() {
                 name="" 
                 id="" 
                 placeholder="San Francisco" 
-                class="text-center text-base py-4 px-0 rounded-3xl border-none outline-none bg-transparent focus:bg-transparent"/>
+                className="text-center text-base py-4 px-0 rounded-3xl border-none outline-none bg-transparent focus:bg-transparent"/>
             </div>
             <button className="bg-white self-center mt-72 py-4 px-10 rounded-3xl text-primary font-Montserrat text-base font-bold  shadow-custom">Explore More</button>
           </div>
