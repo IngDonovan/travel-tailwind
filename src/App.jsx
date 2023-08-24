@@ -33,8 +33,8 @@ function App() {
         </div>
       </header>
       <main>
-        <section id="recomendations" className="py-7">
-          <h2 className="text-primary font-bold text-2xl px-5">Our Recomendations</h2>
+        <section id="recomendations" className="pt-7">
+          <h2 className="text-primary font-regular text-2xl px-5">Our Recomendations</h2>
           <aside className="w-auto h-54 flex gap-5 overflow-auto px-5 py-7">
             <article className="h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom transition duration-500 ease-in-out hover:-translate-y-4 ">
               <picture className="w-40 h-3/5 bg-norway bg-cover rounded-t-lg"></picture>
@@ -98,6 +98,43 @@ function App() {
                 <h4 className="text-sm font-bold pb-1" >Norway</h4>
                 <p className="text-xs ">Beautiful landscapes</p>
               </div>
+            </article>
+          </aside>
+        </section>
+        <section id="trending" className="px-5">
+          <h2 className="text-primary font-regular text-2xl pb-7">Trending Stays</h2>
+          <aside className='flex flex-col gap-9  '>
+            <article className='flex'>
+              <picture className='w-full h-[400px] px-6 py-12 bg-chicago bg-cover bg-center rounded-2xl shadow-custom'>
+                <div className='text-white w-52 flex flex-col'>
+                <h3 className='text-xl font-bold'>Chicago</h3>
+                <p className='text-base py-3'>2 rooms, bathroom and kitchen.</p>
+                </div>
+              </picture>
+            </article>
+            <article className='flex'>
+              <picture className='w-full h-[400px] px-6 py-12 bg-LA bg-cover bg-center rounded-2xl shadow-custom'>
+                <div className='text-white w-52 flex flex-col'>
+                <h3 className='text-xl font-bold'>Los Angeles</h3>
+                <p className='text-base py-3'>4 rooms, 3 bathrooms, kitchen and private pool.</p>
+                </div>
+              </picture>
+            </article>
+            <article className='flex'>
+              <picture className='w-full h-[400px] px-6 py-12 bg-miami bg-cover bg-center rounded-2xl shadow-custom'>
+                <div className='text-white w-52 flex flex-col'>
+                <h3 className='text-xl font-bold'>Miami</h3>
+                <p className='text-base py-3'>3 rooms, 2 bathrooms, kitchen and amazing sea view.</p>
+                </div>
+              </picture>
+            </article>
+            <article className='flex'>
+              <picture className='w-full h-[400px] px-6 py-12 bg-bali bg-cover bg-center rounded-2xl shadow-custom'>
+                <div className='text-white w-52 flex flex-col'>
+                <h3 className='text-xl font-bold'>Bali</h3>
+                <p className='text-base py-3'>2 rooms, 2 bathrooms, kitchen and private pool.</p>
+                </div>
+              </picture>
             </article>
           </aside>
         </section>
