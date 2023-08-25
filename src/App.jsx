@@ -35,7 +35,7 @@ function App() {
       <main>
         <section id="recomendations" className="pt-7">
           <h2 className="text-primary font-regular text-2xl px-5">Our Recomendations</h2>
-          <aside className="w-auto h-54 flex gap-5 overflow-auto px-5 py-7">
+          <aside className="w-auto h-54 flex gap-5 overflow-auto  px-5 py-7">
             <article className="h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom transition duration-500 ease-in-out hover:-translate-y-4 ">
               <picture className="w-40 h-3/5 bg-norway bg-cover rounded-t-lg"></picture>
               <div className="p-3">
@@ -135,6 +135,31 @@ function App() {
                 <p className='text-base py-3'>2 rooms, 2 bathrooms, kitchen and private pool.</p>
                 </div>
               </picture>
+            </article>
+          </aside>
+        </section>
+        <section id="faq" className="flex flex-col px-7 ">
+        <h2 className="text-primary font-regular text-2xl py-7">FAQs</h2>
+          <aside className='flex flex-col gap-2'>
+            <article className='w-80'>
+              <h4 className='text-primary text-base font-bold'>Payment Methods</h4>
+              <p className='py-3 text-sm'>We accept VISA, MasterCard, American Express, Paypal and Binance</p>
+            </article>
+            <article className='w-80'>
+              <h4 className='text-primary text-base font-bold'>Cancellation Policy</h4>
+              <p className='py-3 text-sm'>We accept VISA, MasterCard, American Express, Paypal and Binance</p>
+            </article>
+            <article className='w-80'>
+              <h4 className='text-primary text-base font-bold'>Long Stays</h4>
+              <p className='py-3 text-sm'>We accept VISA, MasterCard, American Express, Paypal and Binance We accept VISA, MasterCard, American Express, Paypal and Binance</p>
+            </article>
+            <article className='w-80'>
+              <h4 className='text-primary text-base font-bold'>Cancellation Policy</h4>
+              <p className='py-3 text-sm'>We accept VISA, MasterCard, American Express, Paypal and Binance</p>
+            </article>
+            <article className='w-80'>
+              <h4 className='text-primary text-base font-bold'>Cancellation Policy</h4>
+              <p className='py-3 text-sm'>We accept VISA, MasterCard, American Express, Paypal and Binance</p>
             </article>
           </aside>
         </section>
