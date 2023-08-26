@@ -5,11 +5,11 @@ function App() {
 
   return (
     <>
-      <header id="home" className="w-full h-3/4 bg-gray-400 flex flex-col relative" >
+      <header id="home" className="w-full h-3/4 flex flex-col relative" >
         <nav></nav>
         <div className=" w-full h-full">
-          <picture className="w-full h-full bg-red-100 flex flex-row">
-            <span className="w-full h-full bg-sanFrancisco bg-cover bg-center bg-no-repeat"></span>
+          <picture className="w-full h-full flex flex-row">
+            <span className="w-full h-full bg-sanFrancisco bg-cover bg-center bg-no-repeat lg:hidden"></span>
           </picture>
           <div className="absolute top-0 p-6 w-full h-full flex flex-col gap-5 align-center self-center">
             <span className="self-end bg-white px-4 py-2 rounded-3xl">
@@ -30,7 +30,7 @@ function App() {
                 placeholder="San Francisco" 
                 className="text-center text-base py-4 px-0 rounded-3xl border-none outline-none bg-transparent focus:bg-transparent"/>
             </div>
-            <button className="bg-white self-center mt-72 py-4 px-10 rounded-3xl text-primary font-Montserrat text-base font-bold shadow-custom transition duration-500 ease-in-out hover:bg-primary hover:text-white hover:font-bold hover:-translate-y-1 hover:scale-110">Explore More</button>
+            <button className="self-center absolute bottom-5 py-4 px-10 rounded-3xl bg-white text-primary font-Montserrat text-base font-bold shadow-custom transition duration-500 ease-in-out hover:bg-primary hover:text-white hover:font-bold hover:-translate-y-1 hover:scale-110">Explore More</button>
           </div>
         </div>
       </header>
