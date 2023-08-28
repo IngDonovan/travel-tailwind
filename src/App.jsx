@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <header id="home" className="w-full h-3/4 flex flex-col relative lg:h-auto" >
-        <nav className=' hidden lg:flex items-center justify-between lg:p-6 bg-white text-primary text-lg font-bold'>
+        <nav className=' hidden lg:flex items-center justify-between lg:p-6 text-primary text-lg font-bold dark:text-white'>
             <picture className=''>Platzi Travel</picture>
             <ul className='flex gap-12 '>
               <li>
@@ -69,65 +69,65 @@ function App() {
                 placeholder="San Francisco" 
                 className="text-center text-base py-4 px-0 rounded-3xl border-none outline-none bg-transparent focus:bg-transparent"/>
             </div>
-            <h1 className='hidden lg:flex lg:w-[404px] lg:text-4xl lg:font-bold lg:mt-36'>Find More Locations like this</h1>
+            <h1 className='hidden text-black lg:flex lg:w-[404px] lg:text-4xl lg:font-bold lg:mt-36'>Find More Locations like this</h1>
             <button className="self-center absolute bottom-5 py-4 px-10 rounded-3xl bg-white text-primary font-Montserrat text-base font-bold shadow-custom transition duration-500 ease-in-out hover:bg-primary hover:text-white hover:font-bold hover:-translate-y-1 hover:scale-110 lg:relative lg:self-start">Explore More</button>
           </div>
         </div>
       </header>
       <main>
         <section id="recomendations" className="pt-7">
-          <h2 className="text-primary font-regular text-2xl px-5">Our Recomendations</h2>
+          <h2 className="text-primary dark:text-white font-regular text-2xl px-5">Our Recomendations</h2>
           <aside className="w-auto h-54 flex gap-5 overflow-auto  px-5 py-7">
-            <article className="h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom transition duration-500 ease-in-out hover:-translate-y-4 ">
+            <article className="h-48 min-w-max flex flex-col bg-secondary dark:bg-gray-700 text-white rounded-lg shadow-custom transition duration-500 ease-in-out hover:-translate-y-4 ">
               <picture className="w-40 h-3/5 bg-norway bg-cover rounded-t-lg"></picture>
               <div className="p-3">
                 <h4 className="text-sm font-bold pb-1" >Norway</h4>
                 <p className="text-xs ">Beautiful landscapes</p>
               </div>
             </article>
-            <article className="h-48 min-w-max flex flex-col bg-white text-tertiary rounded-lg shadow-custom transition duration-500 ease-in-out hover:-translate-y-4 ">
+            <article className="h-48 min-w-max flex flex-col bg-white text-tertiary dark:bg-gray-800 dark:text-white rounded-lg shadow-custom transition duration-500 ease-in-out hover:-translate-y-4 ">
               <picture className="w-40 h-3/5 bg-norway bg-cover bg-no-repeat rounded-t-lg"></picture>
               <div className="p-3">
                 <h4 className="text-sm font-bold pb-1" >New York</h4>
                 <p className="text-xs ">Concrete jungle</p>
               </div>
             </article>
-            <article className="h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom transition duration-500 ease-in-out hover:-translate-y-4 ">
+            <article className="h-48 min-w-max flex flex-col bg-secondary dark:bg-gray-700 text-white rounded-lg shadow-custom transition duration-500 ease-in-out hover:-translate-y-4 ">
               <picture className="w-40 h-3/5 bg-yosemite bg-cover rounded-t-lg"></picture>
               <div className="p-3">
                 <h4 className="text-sm font-bold pb-1" >Yosemite</h4>
                 <p className="text-xs ">A break from the world</p>
               </div>
             </article>
-            <article className="h-48 min-w-max flex flex-col bg-white text-tertiary rounded-lg shadow-custom transition duration-500 ease-in-out hover:-translate-y-4 ">
+            <article className="h-48 min-w-max flex flex-col bg-white text-tertiary dark:bg-gray-800 dark:text-white rounded-lg shadow-custom transition duration-500 ease-in-out hover:-translate-y-4 ">
               <picture className="w-40 h-3/5 bg-seattle bg-cover rounded-t-lg"></picture>
               <div className="p-3">
                 <h4 className="text-sm font-bold pb-1" >Seattle</h4>
                 <p className="text-xs">Big City</p>
               </div>
             </article>
-            <article className="h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom transition duration-500 ease-in-out hover:-translate-y-4 ">
+            <article className="h-48 min-w-max flex flex-col bg-secondary dark:bg-gray-700 text-white rounded-lg shadow-custom transition duration-500 ease-in-out hover:-translate-y-4 ">
               <picture className="w-40 h-3/5 bg-switzerland bg-cover rounded-t-lg"></picture>
               <div className="p-3">
                 <h4 className="text-sm font-bold pb-1" >Switzerland</h4>
                 <p className="text-xs ">The mountains</p>
               </div>
             </article>
-            <article className="h-48 min-w-max flex flex-col bg-white text-tertiary rounded-lg shadow-custom transition duration-500 ease-in-out hover:-translate-y-4 ">
+            <article className="h-48 min-w-max flex flex-col bg-white text-tertiary dark:bg-gray-800 dark:text-white rounded-lg shadow-custom transition duration-500 ease-in-out hover:-translate-y-4 ">
               <picture className="w-40 h-3/5 bg-sydney bg-cover bg-center rounded-t-lg"></picture>
               <div className="p-3">
                 <h4 className="text-sm font-bold pb-1" >Sidney</h4>
                 <p className="text-xs ">Beautiful landscapes</p>
               </div>
             </article>
-            <article className="h-48 min-w-max flex flex-col bg-secondary text-white rounded-lg shadow-custom transition duration-500 ease-in-out hover:-translate-y-4 ">
+            <article className="h-48 min-w-max flex flex-col bg-secondary dark:bg-gray-700 text-white rounded-lg shadow-custom transition duration-500 ease-in-out hover:-translate-y-4 ">
               <picture className="w-40 h-3/5 bg-iceland bg-cover rounded-t-lg"></picture>
               <div className="p-3">
                 <h4 className="text-sm font-bold pb-1" >Edinburgh</h4>
                 <p className="text-xs">Most visited</p>
               </div>
             </article>
-            <article className="h-48 min-w-max flex flex-col bg-white text-tertiary rounded-lg shadow-custom transition duration-500 ease-in-out hover:-translate-y-4 ">
+            <article className="h-48 min-w-max flex flex-col bg-white text-tertiary dark:bg-gray-800 dark:text-white rounded-lg shadow-custom transition duration-500 ease-in-out hover:-translate-y-4 ">
               <picture className="w-40 h-3/5 bg-iceland bg-cover rounded-t-lg"></picture>
               <div className="p-3">
                 <h4 className="text-sm font-bold pb-1" >IceLand</h4>
@@ -137,7 +137,7 @@ function App() {
           </aside>
         </section>
         <section id="trending" className="px-5">
-          <h2 className="text-primary font-regular text-2xl pb-7">Trending Stays</h2>
+          <h2 className="text-primary dark:text-white font-regular text-2xl pb-7">Trending Stays</h2>
           <aside className='flex flex-col gap-9 lg:grid lg:grid-cols-2 '>
             <article className='flex lg:col-span-1 row-span-2'>
               <picture className='w-full h-[400px] px-6 py-12 bg-chicago bg-cover bg-center rounded-2xl shadow-custom lg:h-auto'>
@@ -173,35 +173,35 @@ function App() {
             </article>
           </aside>
         </section>
-        <section id="faq" className="flex flex-col px-7 ">
-        <h2 className="text-primary font-regular text-2xl py-7">FAQs</h2>
-          <aside className='flex flex-col gap-2'>
+        <section id="faq" className="flex flex-col px-7">
+        <h2 className="text-primary dark:text-white font-regular text-2xl py-7">FAQs</h2>
+          <aside className='flex flex-col gap-2 w-[300px-px-7] max-w-md lg:flex-row'>
             <article className=''>
-              <h4 className='text-primary text-base font-bold'>Payment Methods</h4>
+              <h4 className='text-primary dark:text-white text-base font-bold'>Payment Methods</h4>
               <p className='py-3 text-sm'>We accept VISA, MasterCard, American Express, Paypal and Binance</p>
             </article>
             <article className=''>
-              <h4 className='text-primary text-base font-bold'>Cancellation Policy</h4>
+              <h4 className='text-primary dark:text-white text-base font-bold'>Cancellation Policy</h4>
               <p className='py-3 text-sm'>We accept VISA, MasterCard, American Express, Paypal and Binance</p>
             </article>
             <article className=''>
-              <h4 className='text-primary text-base font-bold'>Long Stays</h4>
+              <h4 className='text-primary dark:text-white text-base font-bold'>Long Stays</h4>
               <p className='py-3 text-sm'>We accept VISA, MasterCard, American Express, Paypal and Binance We accept VISA, MasterCard, American Express, Paypal and Binance</p>
             </article>
             <article className=''>
-              <h4 className='text-primary text-base font-bold'>Cancellation Policy</h4>
+              <h4 className='text-primary dark:text-white text-base font-bold'>Cancellation Policy</h4>
               <p className='py-3 text-sm'>We accept VISA, MasterCard, American Express, Paypal and Binance</p>
             </article>
             <article className=''>
-              <h4 className='text-primary text-base font-bold'>Cancellation Policy</h4>
+              <h4 className='text-primary dark:text-white text-base font-bold'>Cancellation Policy</h4>
               <p className='py-3 text-sm'>We accept VISA, MasterCard, American Express, Paypal and Binance</p>
             </article>
           </aside>
         </section>
       </main>
-      <footer className='flex flex-col gap-4 p-5 pb-24 mt-12 bg-gray-100 text-gray-300' id='aboutUs'>
+      <footer className='flex flex-col gap-4 p-5 pb-24 mt-12 bg-gray-100 text-gray-300 dark:bg-gray-700 lg:pb-5 lg:items-center' id='aboutUs'>
         <h3 className='font-bold' >About Us</h3>
-        <ul className='flex flex-col gap-3'>
+        <ul className='flex flex-col gap-3 lg:flex-row lg:gap-8'>
           <li>Investors</li>
           <li>Jobs</li>
           <li>Privacy policy</li>
@@ -209,7 +209,7 @@ function App() {
           <li>Platzi Travel, inc</li>
           <li>Follow Us</li>
         </ul>
-        <div className='flex gap-3'>
+        <div className='flex gap-3 lg:gap-8'>
           <span>
             <svg xmlns="http://www.w3.org/2000/svg" className='w-5 h-5 text-gray-300' viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" fill="currentColor"/></svg>  
           </span>
@@ -219,7 +219,7 @@ function App() {
         </div>
       </footer>
       <aside id="tab_bar" 
-        className='h-16 w-full flex justify-center items-center gap-10 fixed bottom-0 bg-white opacity-95 shadow-custom lg:hidden'>
+        className='h-16 w-full flex justify-center items-center gap-10 fixed bottom-0 bg-white dark:bg-gray-800 opacity-95 shadow-custom lg:hidden'>
         <a href="#home" className='text-color-white'>
           <svg className='w-8 h-8 text-gray-300 hover:text-primary' viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M10.707 2.29303C10.5195 2.10556 10.2652 2.00024 10 2.00024C9.73488 2.00024 9.48057 2.10556 9.29304 2.29303L2.29304 9.29303C2.11088 9.48163 2.01009 9.73423 2.01237 9.99643C2.01465 10.2586 2.11981 10.5094 2.30522 10.6948C2.49063 10.8803 2.74144 10.9854 3.00364 10.9877C3.26584 10.99 3.51844 10.8892 3.70704 10.707L4.00004 10.414V17C4.00004 17.2652 4.1054 17.5196 4.29293 17.7071C4.48047 17.8947 4.73482 18 5.00004 18H7.00004C7.26526 18 7.51961 17.8947 7.70715 17.7071C7.89468 17.5196 8.00004 17.2652 8.00004 17V15C8.00004 14.7348 8.1054 14.4805 8.29293 14.2929C8.48047 14.1054 8.73482 14 9.00004 14H11C11.2653 14 11.5196 14.1054 11.7071 14.2929C11.8947 14.4805 12 14.7348 12 15V17C12 17.2652 12.1054 17.5196 12.2929 17.7071C12.4805 17.8947 12.7348 18 13 18H15C15.2653 18 15.5196 17.8947 15.7071 17.7071C15.8947 17.5196 16 17.2652 16 17V10.414L16.293 10.707C16.4816 10.8892 16.7342 10.99 16.9964 10.9877C17.2586 10.9854 17.5095 10.8803 17.6949 10.6948C17.8803 10.5094 17.9854 10.2586 17.9877 9.99643C17.99 9.73423 17.8892 9.48163 17.707 9.29303L10.707 2.29303Z" fill="currentColor"/>
