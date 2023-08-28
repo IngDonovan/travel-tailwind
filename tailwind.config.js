@@ -35,7 +35,7 @@ export default {
         'norway': "url('./src/assets/img/norway.jpg')",
         'sydney': "url('./src/assets/img/sydney.jpg')",
         'miami': "url('./src/assets/img/miami.jpg')",
-        'switzerland': "u../i./src/assets/img/switzerland.jpg')",
+        'switzerland': "url('./src/assets/img/switzerland.jpg')",
         'bali': "url('./src/assets/img/bali.jpg')",
         'chicago': "url('./src/assets/img/chicago.jpg')",
         'europe': "url('./src/assets/img/europe.jpg')",
