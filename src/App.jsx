@@ -137,16 +137,16 @@ function App() {
         </section>
         <section id="trending" className="px-5">
           <h2 className="text-primary font-regular text-2xl pb-7">Trending Stays</h2>
-          <aside className='flex flex-col gap-9  '>
-            <article className='flex'>
-              <picture className='w-full h-[400px] px-6 py-12 bg-chicago bg-cover bg-center rounded-2xl shadow-custom'>
+          <aside className='flex flex-col gap-9 lg:grid lg:grid-cols-2 '>
+            <article className='flex lg:col-span-1 row-span-2'>
+              <picture className='w-full h-[400px] px-6 py-12 bg-chicago bg-cover bg-center rounded-2xl shadow-custom lg:h-auto'>
                 <div className='text-white w-52 flex flex-col'>
                 <h3 className='text-xl font-bold'>Chicago</h3>
                 <p className='text-base py-3'>2 rooms, bathroom and kitchen.</p>
                 </div>
               </picture>
             </article>
-            <article className='flex'>
+            <article className='flex lg:col-span-1 lg:row-span-1'>
               <picture className='w-full h-[400px] px-6 py-12 bg-LA bg-cover bg-center rounded-2xl shadow-custom'>
                 <div className='text-white w-52 flex flex-col'>
                 <h3 className='text-xl font-bold'>Los Angeles</h3>
@@ -154,7 +154,7 @@ function App() {
                 </div>
               </picture>
             </article>
-            <article className='flex'>
+            <article className='flex lg:col-span-1 lg:row-span-1'>
               <picture className='w-full h-[400px] px-6 py-12 bg-miami bg-cover bg-center rounded-2xl shadow-custom'>
                 <div className='text-white w-52 flex flex-col'>
                 <h3 className='text-xl font-bold'>Miami</h3>
@@ -162,7 +162,7 @@ function App() {
                 </div>
               </picture>
             </article>
-            <article className='flex'>
+            <article className='flex lg:col-span-2 lg:row-span-1'>
               <picture className='w-full h-[400px] px-6 py-12 bg-bali bg-cover bg-center rounded-2xl shadow-custom'>
                 <div className='text-white w-52 flex flex-col'>
                 <h3 className='text-xl font-bold'>Bali</h3>
