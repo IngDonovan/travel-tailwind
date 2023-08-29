@@ -2,7 +2,7 @@ import Recomendations from "../Recomedations";
 
 const Main = () => {
     return (
-        <main>
+        <main className="dark:bg-gray-900 pb-12">
             <Recomendations />
             <section id="trending" className="px-5">
             <h2 className="text-primary dark:text-white font-regular text-2xl pb-7">Trending Stays</h2>
@@ -46,7 +46,7 @@ const Main = () => {
             <aside className='flex flex-col gap-2 w-[300px-px-7] max-w-md lg:flex-row lg:max-w-none'>
                 <article className=''>
                 <h4 className='text-primary dark:text-white text-base font-bold'>Payment Methods</h4>
-                <p className='py-3 text-sm text-black'>We accept VISA, MasterCard, American Express, Paypal and Binance</p>
+                <p className='py-3 text-sm text-black dark:text-white'>We accept VISA, MasterCard, American Express, Paypal and Binance</p>
                 </article>
                 <article className=''>
                 <h4 className='text-primary dark:text-white text-base font-bold'>Cancellation Policy</h4>

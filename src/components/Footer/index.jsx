@@ -2,7 +2,7 @@
 
 const Footer = () => {
     return(
-        <footer className='flex flex-col gap-4 p-5 pb-24 mt-12 bg-gray-100 text-gray-300 dark:bg-gray-700 lg:pb-5 lg:items-center' id='aboutUs'>
+        <footer className='flex flex-col gap-4 p-5 pb-24 bg-gray-100 text-gray-300 dark:bg-gray-700 lg:pb-5 lg:items-center' id='aboutUs'>
         <h3 className='font-bold' >About Us</h3>
         <ul className='flex flex-col gap-3 lg:flex-row lg:gap-8'>
           <li>Investors</li>
