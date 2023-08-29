@@ -1,7 +1,8 @@
 const Recomendations = () => {
     const cities = [
 
-        {
+        {   
+            "id":"1",
             "name": "Norway",
             "text": "Beautiful landscapes",
             "image": "bg-norway",
@@ -10,7 +11,8 @@ const Recomendations = () => {
             "darkBg":"bg-gray-700",
             "darkTx":"text-white",
         },
-        {
+        {   
+            "id":"2",
             "name": "New York",
             "text": "Concrete jungle",
             "image": "bg-newYork",
@@ -19,7 +21,8 @@ const Recomendations = () => {
             "darkBg":"bg-gray-800",
             "darkTx":"text-white",
         },
-        {
+        {   
+            "id":"3",
             "name": "Yosemite",
             "text": "A break from the world",
             "image": "bg-yosemite",
@@ -28,7 +31,8 @@ const Recomendations = () => {
             "darkBg":"bg-gray-700",
             "darkTx":"text-white",
         },
-        {
+        {   
+            "id":"4",
             "name": "Seattle",
             "text": "Big City",
             "image": "bg-seattle",
@@ -37,7 +41,8 @@ const Recomendations = () => {
             "darkBg":"bg-gray-800",
             "darkTx":"text-white",
         },
-        {
+        {   
+            "id":"5",
             "name": "Switzerland",
             "text": "The mountains",
             "image": "bg-switzerland",
@@ -46,7 +51,8 @@ const Recomendations = () => {
             "darkBg":"bg-gray-800",
             "darkTx":"text-white",
         },
-        {
+        {   
+            "id":"6",
             "name": "Sidney",
             "text": "Beautiful landscapes",
             "image": "bg-sydney",
@@ -55,7 +61,8 @@ const Recomendations = () => {
             "darkBg":"bg-gray-700",
             "darkTx":"text-white",
         },
-        {
+        {   
+            "id":"7",
             "name": "Edinburgh",
             "text": "Most visited",
             "image": "bg-iceland",
@@ -64,7 +71,8 @@ const Recomendations = () => {
             "darkBg":"bg-gray-800",
             "darkTx":"text-white",
         },
-        {
+        {   
+            "id":"8",
             "name": "IceLand",
             "text": "The polar cold",
             "image": "bg-iceland",
@@ -80,9 +88,11 @@ const Recomendations = () => {
       <h2 className="text-primary dark:text-white font-regular text-2xl px-5">
         Our Recomendations
       </h2>
-      <aside className="w-auto h-54 flex self-center gap-5 overflow-auto px-5 py-7">
+      <aside className="w-auto h-54 flex 2xl:self-center gap-5 overflow-auto px-5 py-7">
         {cities.map(city => (
-            <article className= {`h-48 min-w-max flex flex-col ${city.bgColor} dark:${city.darkBg} dark:${city.darkTx} ${city.txColor} rounded-lg shadow-custom transition duration-500 ease-in-out hover:-translate-y-4`} >
+            <article 
+            key={city.id}
+            className= {`h-48 min-w-max flex flex-col ${city.bgColor} dark:${city.darkBg} dark:${city.darkTx} ${city.txColor} rounded-lg shadow-custom transition duration-500 ease-in-out hover:-translate-y-4`} >
             <picture className={`w-40 h-3/5 ${city.image} bg-cover bg-center rounded-t-lg`}></picture>
             <div className="p-3">
                 <h4 className="text-sm font-bold pb-1">{city.name}</h4>
