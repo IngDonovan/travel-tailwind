@@ -2,6 +2,7 @@
 const Header = () => {
   const darkMode = () => {
     console.log('¡Me hiciste clic!');
+    
   };
 
   return (
@@ -51,14 +52,14 @@ const Header = () => {
           <span className="w-full h-full bg-sanFrancisco bg-cover bg-center bg-no-repeat lg:hidden"></span>
         </picture>
         <div className="absolute top-0 p-6 w-full h-full flex flex-col gap-5 self-center lg:gap-11">
-          <span 
-          className="self-end bg-white px-4 py-2 rounded-3xl cursor-pointer lg:hidden" 
+          <button 
+          className="self-end bg-white text-primary px-4 py-2 rounded-3xl cursor-pointer shadow-customs transition duration-500 ease-in-out hover:bg-primary hover:text-white hover:-translate-y-1 hover:scale-110 lg:hidden" 
           onClick={darkMode}
           >
-            <svg className='w-5 h-5 text-primary' viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className='w-5 h-5 text-current' viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M25.0748 19.2748C22.9267 20.2465 20.5334 20.5405 18.214 20.1177C15.8945 19.6949 13.7589 18.5753 12.0918 16.9082C10.4246 15.241 9.30509 13.1055 8.88228 10.786C8.45946 8.46654 8.75347 6.0733 9.72512 3.92514C8.01494 4.69801 6.51777 5.87422 5.36208 7.35288C4.20638 8.83154 3.42666 10.5685 3.08979 12.4147C2.75293 14.261 2.86898 16.1614 3.428 17.9529C3.98702 19.7444 4.97232 21.3736 6.29935 22.7006C7.62639 24.0276 9.25556 25.0129 11.0471 25.572C12.8386 26.131 14.739 26.247 16.5852 25.9102C18.4315 25.5733 20.1684 24.7936 21.6471 23.6379C23.1257 22.4822 24.302 20.985 25.0748 19.2748V19.2748Z" fill="currentColor"/>
             </svg>
-          </span>
+          </button>
           <div className="flex align-center justify-center bg-white rounded-3xl shadow-custom transition duration-700 ease-in-out focus:ring-2 focus:w-11/12 hover:scale-105 lg:hidden">
             <span className="self-center">
               <svg className='w-6 h-6 text-primary' viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -70,7 +71,7 @@ const Header = () => {
               name="" 
               id="" 
               placeholder="San Francisco" 
-              className="text-center text-base py-4 px-0 rounded-3xl border-none outline-none bg-transparent focus:bg-transparent"/>
+              className="text-center text-base text-black py-4 px-0 rounded-3xl border-none outline-none bg-transparent focus:bg-transparent"/>
           </div>
           <h1 className='hidden text-black lg:flex lg:w-[404px] lg:text-4xl lg:font-bold lg:mt-36'>Find More Locations like this</h1>
           <button className="self-center absolute bottom-5 py-4 px-10 rounded-3xl bg-white text-primary font-Montserrat text-base font-bold shadow-custom transition duration-500 ease-in-out hover:bg-primary hover:text-white hover:font-bold hover:-translate-y-1 hover:scale-110 lg:relative lg:self-start">Explore More</button>
